@@ -1,0 +1,160 @@
+[data-user-play],
+[data-computer-play] {
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border: 2px solid white;
+  border-radius: 10px;
+  top: 50%;
+  transform: translate(-7px, -52%);
+}
+
+[data-user-play] {
+  left: -80px;
+  background-image: url(/images/rocks.png);
+}
+[data-computer-play] {
+  right: -93px;
+  background-image: url(/images/paper.png);
+}
+code {
+  font-family: "Source Code Pro", monospace;
+  font-size: 12px;
+}
+
+a {
+  font-family: "Source Code Pro", monospace;
+  color: #ffcc99;
+}
+
+a:hover {
+  color: #ffba76;
+}
+
+header {
+  background: #fff;
+  height: 140px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+.score {
+  color: black;
+  font-size: 40px;
+  padding: 15px 20px;
+}
+
+.user-score {
+  background-color: #ffb30d;
+  border: 3px solid #fff;
+  border-right: none;
+  border-radius: 40px 0 0 40px;
+}
+
+.computer-score {
+  background-color: #a3ccab;
+  border: 3px solid #fff;
+  border-left: none;
+  border-radius: 0 40px 40px 0;
+}
+
+.score-board {
+  position: relative;
+  text-align: center;
+  width: 300px;
+  margin: 40px auto;
+
+  .badge {
+    width: 40px;
+    background: #e2584d;
+    font-size: 14px;
+    padding: 10px 6px;
+    position: absolute;
+    top: 50%;
+  }
+
+  .user-label {
+    left: -5%;
+    transform: translate(-10%, -52%);
+    border: 2px solid #fff;
+    background-color: #ffb30d;
+  }
+
+  .computer-label {
+    right: -24px;
+    transform: translate(-6px, -52%);
+    background-color: #a3ccab;
+    border: 2px solid #fff;
+  }
+}
+
+.aa {
+  .result {
+    font-weight: 300;
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .result {
+    line-height: 50px;
+  }
+
+  .choices {
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+  }
+
+  .choice {
+    display: inline-block;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin: auto 10px;
+    transition: all 0.3s ease;
+  }
+
+  .choice img {
+    filter: invert(100%);
+  }
+
+  #action-message {
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 40px 0;
+  }
+
+  .winningStyles {
+    border: 3px solid #4dcc7d;
+    background-color: #043507;
+    box-shadow: 0 0 20px #043507;
+  }
+
+  .losingStyles {
+    border: 3px solid #c52e2e;
+    background-color: #2e0303;
+    box-shadow: 0 0 20px #2e0303;
+  }
+
+  .drawStyles {
+    border: 3px solid #444;
+    background-color: #222;
+    box-shadow: 0 0 20px #222;
+  }
+
+  sup {
+    margin: 0;
+    padding: 0;
+  }
+}

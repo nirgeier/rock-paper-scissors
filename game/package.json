@@ -1,0 +1,32 @@
+{
+  "name": "game",
+  "version": "0.0.0",
+  "private": true,
+  "nodemonConfig": {
+    "ignore": [
+      "**/**.min*"
+    ],
+    "delay": 1000
+  },
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@popperjs/core": "^2.11.8",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-layout": "^0.1.0",
+    "font-awesome": "^4.7.0",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.7.1",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.1.2",
+    "socket.io": "^4.7.5"
+  }
+}

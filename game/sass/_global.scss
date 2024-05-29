@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:300,500");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #24272e;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  // background-image: url("/images/logo.png");
+  // background-repeat: no-repeat; /* This prevents the image from repeating */
+  // background-position: center; /* This centers the image */
+  // background-size: cover; /* This scales the image to cover the entire element */
+}

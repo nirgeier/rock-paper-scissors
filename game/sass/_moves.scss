@@ -1,0 +1,45 @@
+.moves {
+  width: 300px;
+  position: relative;
+  text-align: center;
+  width: 300px;
+  margin: 40px auto;
+}
+
+.move {
+  img {
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 10px;
+    max-width: 80px;
+    max-height: 80px;
+
+    &:hover2 {
+      animation: heartBeat;
+      animation-duration: 2s;
+      border: 2px solid #f08d49;
+      border-radius: 50%;
+      cursor: grab;
+      background: rgba(255, 255, 255, 0.15);
+      background: rgb(0, 0, 0);
+    }
+
+    &:hover {
+      cursor: grab;
+      border: 2px solid #f08d49;
+      background: rgb(0, 0, 0);
+    }
+  }
+}
+
+[data-play="false"] {
+  opacity: 0.1;
+}
+
+[data-play="true"] {
+  img {
+    border: 2px solid #f08d49;
+    background: rgb(0, 0, 0);
+  }
+}
